@@ -1,0 +1,20 @@
+{% load static %}
+{% load base_tags %}
+<!-- Start Header Area -->
+<header class="default-header">
+    <nav class="navbar navbar-expand-lg navbar-light" dir="rtl">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span>
+            </button>
+
+            {% navbar_category %}
+        </div>
+        <a class="navbar-brand" href="index.html">
+            <img src="{% static 'img/logo.png' %}" style="margin-left: 100px" alt="">
+        </a>
+    </nav>
+</header>
+<!-- End Header Area -->

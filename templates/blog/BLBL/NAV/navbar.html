@@ -1,0 +1,8 @@
+<div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+    <ul class="navbar-nav" style="margin-left: 600px">
+
+         {% for cat in category %}
+             <li><a class="active" href="{% url 'blog:category' cat.slug %}">{{ cat.title }}</a></li>
+         {% endfor %}
+    </ul>
+</div>

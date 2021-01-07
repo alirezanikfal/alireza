@@ -1,0 +1,15 @@
+.hover{
+    transition:all ease 1s;
+}
+
+.hover:hover{
+    color: #4cd3e3;
+}
+
+.myfloat{
+    float: right;
+    margin-right: 600px;
+}
+
+
+
